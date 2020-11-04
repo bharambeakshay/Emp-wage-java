@@ -13,7 +13,7 @@ class UC7MonthlyWageClass {
         int empHours;
         int totalSalary = 0;
         while(hours<=totalHours && days<totalDays){
-              int check=(int)(Math.floor(Math.random()*10)%2);
+              int check=(int)(Math.floor(Math.random()*10)%3);
                 switch(check){
                 case isPartTime:
                         empHours = 4;
